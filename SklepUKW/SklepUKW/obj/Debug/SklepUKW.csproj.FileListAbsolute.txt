@@ -69,7 +69,6 @@ C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\System.Web.Webpages.Ra
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\System.Web.Helpers.xml
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\System.Web.Mvc.xml
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\obj\Debug\SklepUKW.csprojAssemblyReference.cache
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\obj\Debug\SklepUKW.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\obj\Debug\SklepUKW.csproj.CopyComplete
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\obj\Debug\SklepUKW.dll
@@ -82,3 +81,4 @@ C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\Glimpse.Ado.dll
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\Glimpse.Core.dll
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\Glimpse.EF6.dll
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\obj\Debug\SklepUKW.Migrations.add_AddDate.resources
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\obj\Debug\SklepUKW.csprojAssemblyReference.cache

@@ -1,6 +1,4 @@
-﻿@model SklepUKW.ViewModels.IndexViewModel
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -11,13 +9,8 @@
 </head>
 <body>
     <header>
-        <div id="menu">
-            @foreach (var category in Model.Categories)
-            {
-                <a href="@Url.Action("List", "Films", new { categoryName = category.Name })">@category.Name</a>
-            }
-            
-        </div>
+        
+        @Html.Action("CategoriesMenu", "Films");
     </header>
 
     <div>

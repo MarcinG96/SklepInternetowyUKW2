@@ -165,6 +165,7 @@
     <Content Include="Views\Home\Regulamin.cshtml" />
     <Content Include="Views\Home\MetodyPlatnosci.cshtml" />
     <Content Include="Views\Films\List.cshtml" />
+    <Content Include="Views\Shared\_CategoriesMenu.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -24,11 +24,15 @@ a {
     }
 
 table {
-    width: 100%;
+    width: 90%;
     font-size: 50px;
     text-align: center;
+    padding: 5%;
 }
 
+table img {
+    height: 150px;
+}
 #stopka {
     font-size: 20px;
     text-align: right;
