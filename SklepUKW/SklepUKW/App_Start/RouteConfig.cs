@@ -12,6 +12,12 @@ namespace SklepUKW
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            
+            routes.MapRoute(
+               name: "Details",
+               url: "details_{id}.html",
+               defaults: new { controller = "Films", action = "Details" }
+               );
 
             routes.MapRoute(
                name: "FilmsList",

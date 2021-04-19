@@ -58,6 +58,7 @@
     </Reference>
     <Reference Include="Glimpse.EF6, Version=1.6.5.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Glimpse.EF6.1.6.5\lib\net45\Glimpse.EF6.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
@@ -166,6 +167,8 @@
     <Content Include="Views\Home\MetodyPlatnosci.cshtml" />
     <Content Include="Views\Films\List.cshtml" />
     <Content Include="Views\Shared\_CategoriesMenu.cshtml" />
+    <Content Include="Views\Films\Details.cshtml" />
+    <Content Include="Views\Films\_FilmsFromCategory.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -30,12 +30,55 @@ table {
     padding: 5%;
 }
 
-table img {
-    height: 150px;
-}
 #stopka {
     font-size: 20px;
     text-align: right;
     padding: 30px;
     background-color: brown;
+}
+ul {
+    list-style-type: none;
+}
+
+#tableSzczegoly {
+    text-align: left;
+    font-size: 30px;
+    padding: 2%;
+}
+
+#tableSzczegoly img {
+        width: 400px;
+}
+
+#filmsFromCategory {
+    font-size: 20px;
+    background-color: brown;
+    width: 250px;
+    padding: 30px;
+}
+
+    #filmsFromCategory ul li {
+        margin: 0 0 10px 0;
+    }
+#obrazek {
+    text-align: center;
+}
+
+a img {
+    width: 200px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+table {
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
 }
