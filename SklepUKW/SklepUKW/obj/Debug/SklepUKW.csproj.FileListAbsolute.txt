@@ -82,3 +82,10 @@ C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\Glimpse.Core.dll
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\Glimpse.EF6.dll
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\obj\Debug\SklepUKW.Migrations.add_AddDate.resources
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\obj\Debug\SklepUKW.csprojAssemblyReference.cache
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\MvcSiteMapProvider.dll
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\MvcSiteMapProvider.WebActivator.dll
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\WebActivatorEx.dll
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\Microsoft.Web.Administration.dll
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\MvcSiteMapProvider.xml
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\MvcSiteMapProvider.WebActivator.pdb
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\MvcSiteMapProvider.WebActivator.xml
