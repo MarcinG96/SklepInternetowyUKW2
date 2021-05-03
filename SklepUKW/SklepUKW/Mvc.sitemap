@@ -6,9 +6,11 @@
   <mvcSiteMapNode title="Home" controller="Home" action="Index">
     <mvcSiteMapNode title="" controller="Films" action="List" dynamicNodeProvider="SklepUKW.Infrastructure.CategoryDynamicNodeProvider, SklepUKW">
 
-      <mvcSiteMapNode title="" controller="Films" action="Details" dynamicNodeProvider="SklepUKW.Infrastructure.FilmsDetailsDynamicNodeProvider, SklepUKW"/>
+      <mvcSiteMapNode title="" controller="Films" action="Details" dynamicNodeProvider="SklepUKW.Infrastructure.FilmsDetailsDynamicNodeProvider, SklepUKW"/>   
       
     </mvcSiteMapNode>
-   </mvcSiteMapNode>
 
+    <mvcSiteMapNode title="Koszyk" controller="Cart" action="Index"/>
+    
+   </mvcSiteMapNode>
 </mvcSiteMap>

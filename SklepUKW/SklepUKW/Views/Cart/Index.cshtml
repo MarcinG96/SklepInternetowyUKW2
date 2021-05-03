@@ -5,16 +5,18 @@
 }
 
 <h2>Twój koszyk</h2>
+<h3>@Html.MvcSiteMap().SiteMapPath()</h3>
+
 <table id="koszykTabela">
     @foreach (var item in Model.CartItems)
     {
-    <tr>
-        <td><a href="@Url.Action("Details", "Films", new { id = item.Film.FilmId })"><img src="@Url.PostersPath(@item.Film.PosterName)" /></a></td>
-        <td><a href="@Url.Action("Details", "Films", new { id = item.Film.FilmId })">@item.Film.Title</a></td>
-        <td>Ilość: @item.Quantity</td>
-        <td>@item.Value zł</td>
-        <td><a href="link">&#128465;</a></td>
-    </tr>
+        <tr id="cartItem-@item.Film.FilmId">
+            <td><a href="@Url.Action("Details", "Films", new { id = item.Film.FilmId })"><img src="@Url.PostersPath(@item.Film.PosterName)" /></a></td>
+            <td><a href="@Url.Action("Details", "Films", new { id = item.Film.FilmId })">@item.Film.Title</a></td>
+            <td>Ilość: <span id="itemQuantity-@item.Film.FilmId"> @item.Quantity </span></td>
+            <td>@item.Value zł</td>
+            <td><a href="#" class="trash" data-id="@item.Film.FilmId">&#128465;</a></td>
+        </tr>
     }
 
 </table>
@@ -27,4 +29,31 @@
     <a class="PrzyciskLink" href="link">&#9755; Kontynuuj zakupy &#9754;</a>
     <a class="PrzyciskLink" href="link">&#9755; Zapłać &#9754;</a>
 </div>
- 
+
+@section Scripts
+{
+    <script src="~/Scripts/jquery-3.6.0.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.js"></script>
+
+    <script type="text/javascript">
+
+        $(".trash").click(function () {
+            var IdCartItem = $(this).data('id');
+            if (IdCartItem != '') {
+                $.post("/Cart/RemoveFromCart", { "id": IdCartItem }, function (response) {
+                    if (response.itemQuantity == 0) {
+                        $("#cartItem-" + response.itemId).fadeOut("slow");
+                    }
+                    else {
+                        $("#itemQuantity-" + response.itemId).text(response.itemQuantity);
+                    }
+
+                    $("#CenaCalkowita").text("Razem: " + response.cartValue + " zł");
+
+                });
+
+            }
+        });
+
+    </script>
+}

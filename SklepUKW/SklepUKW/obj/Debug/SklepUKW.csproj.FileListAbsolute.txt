@@ -89,3 +89,10 @@ C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\Microsoft.Web.Administ
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\MvcSiteMapProvider.xml
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\MvcSiteMapProvider.WebActivator.pdb
 C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\MvcSiteMapProvider.WebActivator.xml
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\Antlr3.Runtime.dll
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\Newtonsoft.Json.dll
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\System.Web.Optimization.dll
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\WebGrease.dll
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\Antlr3.Runtime.pdb
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\Newtonsoft.Json.xml
+C:\Users\user\source\repos\SklepUKW\SklepUKW\SklepUKW\bin\System.Web.Optimization.xml
